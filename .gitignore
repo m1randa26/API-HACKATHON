@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+.pnpm/
+.pnpm-debug.log
+
+# Testing
+coverage/
+
+# Environment
+.env
+.env.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Editor directories
+.idea/
+.vscode/
+
+# OS directories
+.DS_Store
+Thumbs.db
+
+# Application-specific
+/dist/
+/build/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.pnp.*
